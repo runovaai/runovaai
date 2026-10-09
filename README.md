@@ -1,16 +1,28 @@
-## Hi there 👋
+# RunovaAI
 
-<!--
-**runovaai/runovaai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+RunovaAI is an early-stage project exploring AI-assisted tools for creating and customizing 2D games.
 
-Here are some ideas to get you started:
+## What we're building
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Our goal is to make 2D game creation simpler and more accessible by exploring how AI can assist with game ideas, mechanics, content, and customization.
+
+## Project Focus
+
+- AI-assisted 2D game creation
+- Game idea and mechanics assistance
+- 2D game customization
+- Browser-based playable experiences
+
+## Status
+
+🚧 Early Development
+
+RunovaAI is currently in the early development and experimentation stage.
+
+## Website
+
+https://runovaai.in
+
+## Contact
+
+contact@runovaai.in
