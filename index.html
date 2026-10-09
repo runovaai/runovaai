@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RunovaAI | Create 2D Games with AI</title>
+  <meta name="description" content="RunovaAI is an early-stage project exploring AI-assisted 2D game creation.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0d12;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(100% - 40px, 1000px);
+      margin: auto;
+    }
+
+    header {
+      padding: 24px 0;
+      border-bottom: 1px solid #20242d;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .logo span {
+      color: #7c5cff;
+    }
+
+    .status {
+      font-size: 13px;
+      color: #9ca3af;
+      border: 1px solid #292e38;
+      padding: 7px 12px;
+      border-radius: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 0 90px;
+    }
+
+    .badge {
+      display: inline-block;
+      color: #a995ff;
+      background: #15121f;
+      border: 1px solid #30265a;
+      padding: 7px 13px;
+      border-radius: 20px;
+      font-size: 13px;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 72px);
+      line-height: 1.05;
+      letter-spacing: -3px;
+      margin-bottom: 22px;
+    }
+
+    h1 span {
+      color: #8b6cff;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      color: #a7adb8;
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 70px 0;
+      border-top: 1px solid #20242d;
+    }
+
+    .section h2 {
+      font-size: 30px;
+      margin-bottom: 14px;
+    }
+
+    .section-intro {
+      color: #9ca3af;
+      max-width: 650px;
+      margin-bottom: 35px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      border: 1px solid #252a34;
+      background: #11141a;
+      padding: 24px;
+      border-radius: 12px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #969daa;
+      font-size: 15px;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 70px 0 90px;
+    }
+
+    .contact p {
+      color: #9ca3af;
+      margin: 10px 0 20px;
+    }
+
+    .email {
+      color: #a995ff;
+      text-decoration: none;
+    }
+
+    .email:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid #20242d;
+      padding: 25px 0;
+      color: #686f7b;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media (max-width: 650px) {
+      .container {
+        width: min(100% - 28px, 1000px);
+      }
+
+      .hero {
+        padding: 75px 0 65px;
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      .status {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Runova<span>AI</span></div>
+        <div class="status">Early Development</div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <div class="badge">AI-assisted 2D game creation</div>
+
+        <h1>Create <span>2D Games</span><br>with AI</h1>
+
+        <p>
+          RunovaAI is an early-stage project exploring a simpler way
+          to create and customize 2D games with AI-assisted tools.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>What we're building</h2>
+
+        <p class="section-intro">
+          Our goal is to make 2D game creation more accessible,
+          helping creators turn ideas into playable game experiences.
+        </p>
+
+        <div class="features">
+
+          <div class="card">
+            <h3>🤖 AI-Assisted Creation</h3>
+            <p>
+              Explore ways to use AI to help create game ideas,
+              mechanics and content.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🎮 2D Game Creation</h3>
+            <p>
+              Focused on simple and accessible tools for building
+              browser-based 2D games.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🛠️ Game Customization</h3>
+            <p>
+              Experiment with customizable characters, environments
+              and gameplay elements.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🚀 Playable Experiences</h3>
+            <p>
+              The long-term goal is to turn generated ideas into
+              playable 2D game experiences.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2>Get in touch</h2>
+
+        <p>
+          RunovaAI is currently in early development.
+        </p>
+
+        <a class="email" href="mailto:contact@runovaai.in">
+          contact@runovaai.in
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 RunovaAI. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
